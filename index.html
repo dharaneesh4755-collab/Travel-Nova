@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover destinations and plan your next adventure with TravelNova.">
+  <title>TravelNova | Explore More, Worry Less</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <a href="#home" class="logo">Travel<span>Nova.</span></a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+  <nav id="navigation">
+    <a href="#home">Home</a>
+    <a href="#destinations">Destinations</a>
+    <a href="#planner">AI Planner</a>
+    <a href="#packages">Packages</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact" class="nav-btn">Plan My Trip ↗</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- HOME -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="eyebrow">✦ YOUR NEXT ADVENTURE STARTS HERE</div>
+
+    <h1>Discover the world.<br><span>Live the journey.</span></h1>
+
+    <p>
+      From hidden beaches to breathtaking mountains,
+      discover extraordinary destinations and create
+      unforgettable memories with TravelNova.
+    </p>
+
+    <a href="#destinations" class="primary-btn">Explore Destinations ↗</a>
+
+    <div class="hero-stats">
+      <div><strong>50+</strong><small>Destinations</small></div>
+      <div><strong>100+</strong><small>Travel ideas</small></div>
+      <div><strong>24/7</strong><small>Travel inspiration</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK SEARCH -->
+<div class="search-panel">
+  <div class="search-field">
+    <label for="quickDestination">📍 Destination</label>
+    <input id="quickDestination" type="text" placeholder="Where do you want to go?">
+  </div>
+
+  <div class="search-field">
+    <label for="quickDays">📅 Duration</label>
+    <select id="quickDays">
+      <option value="3">3 Days</option>
+      <option value="5">5 Days</option>
+      <option value="7">7 Days</option>
+      <option value="10">10 Days</option>
+    </select>
+  </div>
+
+  <div class="search-field">
+    <label for="quickBudget">💰 Budget</label>
+    <select id="quickBudget">
+      <option value="10000">Under ₹10,000</option>
+      <option value="25000">₹10,000–₹25,000</option>
+      <option value="50000">₹25,000–₹50,000</option>
+      <option value="100000">Above ₹50,000</option>
+    </select>
+  </div>
+
+  <div class="search-field">
+    <label for="quickTravelers">👥 Travellers</label>
+    <select id="quickTravelers">
+      <option value="1">1 Person</option>
+      <option value="2">2 People</option>
+      <option value="3">3 People</option>
+      <option value="4">4 People</option>
+      <option value="5">5+ People</option>
+    </select>
+  </div>
+
+  <button class="search-btn" id="searchTrip">Find Trips ↗</button>
+</div>
+
+<!-- DESTINATIONS -->
+<section id="destinations">
+  <div class="section-heading reveal">
+    <div class="eyebrow">EXPLORE THE WORLD</div>
+    <h2>Where will you go next?</h2>
+    <p>Discover beautiful places and find inspiration for your next escape.</p>
+  </div>
+
+  <div class="destination-grid">
+
+    <article class="destination-card reveal">
+      <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=900" alt="Italy coastal village">
+      <div class="destination-info">
+        <h3>Italy 🇮🇹</h3>
+        <p>Culture, romance and beautiful coastlines</p>
+      </div>
+    </article>
+
+    <article class="destination-card reveal">
+      <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=900" alt="Bali tropical landscape">
+      <div class="destination-info">
+        <h3>Bali 🇮🇩</h3>
+        <p>Island escapes and tropical adventures</p>
+      </div>
+    </article>
+
+    <article class="destination-card reveal">
+      <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=900" alt="Switzerland mountains">
+      <div class="destination-info">
+        <h3>Switzerland 🇨🇭</h3>
+        <p>Snowy mountains and amazing views</p>
+      </div>
+    </article>
+
+    <article class="destination-card reveal">
+      <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=900" alt="Taj Mahal India">
+      <div class="destination-info">
+        <h3>India 🇮🇳</h3>
+        <p>History, culture and incredible experiences</p>
+      </div>
+    </article>
+
+    <article class="destination-card reveal">
+      <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=900" alt="Dubai skyline">
+      <div class="destination-info">
+        <h3>Dubai 🇦🇪</h3>
+        <p>Modern attractions and desert adventures</p>
+      </div>
+    </article>
+
+    <article class="destination-card reveal">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900" alt="Beautiful mountain nature">
+      <div class="destination-info">
+        <h3>Nature Escapes 🌿</h3>
+        <p>Peaceful landscapes and outdoor discovery</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- AI TRIP PLANNER -->
+<section class="ai-section" id="planner">
+  <div class="section-heading reveal">
+    <div class="eyebrow">✦ SMART TRAVEL EXPERIENCE</div>
+    <h2>Your personal AI trip planner.</h2>
+    <p>Tell us what you dream of. Get a sample travel itinerary created for your journey.</p>
+  </div>
+
+  <div class="planner-box reveal">
+    <h3>✈️ Plan your dream trip</h3>
+    <p>Enter your travel details to generate your personalised sample itinerary.</p>
+
+    <form id="plannerForm">
+      <div class="planner-grid">
+
+        <div class="planner-field">
+          <label for="destination">Destination</label>
+          <input id="destination" type="text" placeholder="Example: Bali" required>
+        </div>
+
+        <div class="planner-field">
+          <label for="days">Number of days</label>
+          <select id="days" required>
+            <option value="3">3 Days</option>
+            <option value="5">5 Days</option>
+            <option value="7">7 Days</option>
+            <option value="10">10 Days</option>
+          </select>
+        </div>
+
+        <div class="planner-field">
+          <label for="budget">Your total budget (₹)</label>
+          <input id="budget" type="number" placeholder="Example: 25000" min="1000" required>
+        </div>
+
+        <div class="planner-field">
+          <label for="travelStyle">Travel style</label>
+          <select id="travelStyle">
+            <option value="Adventure">Adventure</option>
+            <option value="Relaxation">Relaxation</option>
+            <option value="Culture">Culture and History</option>
+            <option value="Luxury">Luxury</option>
+            <option value="Nature">Nature</option>
+          </select>
+        </div>
+
+      </div>
+
+      <button type="submit" class="planner-submit">✨ Generate My Travel Plan</button>
+    </form>
+
+    <div class="planner-result" id="plannerResult" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- PACKAGES -->
+<section id="packages">
+  <div class="section-heading reveal">
+    <div class="eyebrow">CHOOSE YOUR EXPERIENCE</div>
+    <h2>Travel your own way.</h2>
+    <p>Find a travel style that matches your dreams and budget.</p>
+  </div>
+
+  <div class="package-grid">
+
+    <article class="package-card reveal">
+      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=900" alt="Budget nature travel">
+      <div class="package-info">
+        <small>01 · BUDGET FRIENDLY</small>
+        <h3>Budget Explorer</h3>
+        <p>Discover more places, enjoy meaningful experiences and travel smart.</p>
+      </div>
+    </article>
+
+    <article class="package-card reveal">
+      <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900" alt="Mountain adventure">
+      <div class="package-info">
+        <small>02 · ADVENTURE</small>
+        <h3>Adventure Seeker</h3>
+        <p>Explore exciting landscapes, outdoor activities and thrilling journeys.</p>
+      </div>
+    </article>
+
+    <article class="package-card reveal">
+      <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=900" alt="Luxury ocean escape">
+      <div class="package-info">
+        <small>03 · PREMIUM</small>
+        <h3>Luxury Escape</h3>
+        <p>Enjoy peaceful surroundings and premium holiday inspiration.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- WHY TRAVELNOVA -->
+<section class="features">
+  <div class="section-heading reveal">
+    <div class="eyebrow">THE TRAVELNOVA DIFFERENCE</div>
+    <h2>Every journey deserves something special.</h2>
+    <p>Discover a smarter and more inspiring way to explore the world.</p>
+  </div>
+
+  <div class="feature-grid">
+
+    <article class="feature-card reveal">
+      <div class="icon">🌍</div>
+      <h3>Explore Everywhere</h3>
+      <p>Discover destinations, cultures and beautiful places around the world.</p>
+    </article>
+
+    <article class="feature-card reveal">
+      <div class="icon">🤖</div>
+      <h3>Smart Trip Planning</h3>
+      <p>Generate sample travel plans based on your preferences and budget.</p>
+    </article>
+
+    <article class="feature-card reveal">
+      <div class="icon">💰</div>
+      <h3>Budget Friendly</h3>
+      <p>Explore travel ideas that help you make better budget decisions.</p>
+    </article>
+
+    <article class="feature-card reveal">
+      <div class="icon">🏔️</div>
+      <h3>Unique Experiences</h3>
+      <p>Find inspiration for adventure, nature, relaxation and culture.</p>
+    </article>
+
+    <article class="feature-card reveal">
+      <div class="icon">❤️</div>
+      <h3>Memorable Journeys</h3>
+      <p>Turn your travel dreams into meaningful experiences and memories.</p>
+    </article>
+
+    <article class="feature-card reveal">
+      <div class="icon">📱</div>
+      <h3>Travel Anywhere</h3>
+      <p>Enjoy a responsive website experience on laptops and mobile devices.</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-heading reveal">
+    <div class="eyebrow">TRAVEL INSPIRATION</div>
+    <h2>A world full of possibilities.</h2>
+    <p>Take a look at some beautiful places waiting to be discovered.</p>
+  </div>
+
+  <div class="gallery-grid reveal">
+    <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1000" alt="Mountain lake">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800" alt="Tropical beach">
+    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800" alt="Italian village">
+    <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=800" alt="Travel landscape">
+    <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800" alt="Mountain night sky">
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section>
+  <div class="section-heading reveal">
+    <div class="eyebrow">TRAVEL STORIES</div>
+    <h2>Inspired by the joy of travelling.</h2>
+  </div>
+
+  <div class="review-box reveal">
+    <div class="stars">★★★★★</div>
+    <blockquote>
+      "The world is a book, and every journey opens a new chapter."
+    </blockquote>
+    <p>TravelNova — Explore More, Worry Less.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</div>
+  <h2>Ready to explore the world?</h2>
+  <p>Discover new destinations. Find your inspiration. Start your journey.</p>
+  <a href="#planner" class="primary-btn">Plan Your Adventure ↗</a>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <a href="#home" class="logo">Travel<span>Nova.</span></a>
+  <p>Explore More, Worry Less.</p>
+  <p>© 2026 TravelNova. College project demonstration.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
